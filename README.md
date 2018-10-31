@@ -10,6 +10,8 @@ To run an Application successfully you have add the following arguments at start
 --twitter-source.tokenSecret [KEY]<br>
 --output [location to your recorded file]<br>
 
+Find example [here].(https://drive.google.com/open?id=1JmfdH3IqGqBWM33rgnQ-zgB1kyQKVdiK-cfM8ySQeP8)
+
 ## Videos
 The videos can be found [here](https://drive.google.com/open?id=1ZfmrUc0z21G9I7GFJ82wSKGesYP5omKQ) 
 
