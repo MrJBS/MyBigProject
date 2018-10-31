@@ -228,7 +228,7 @@ counted words in a hashtag
 The output looks like ([HASHTAG],[Average],[PREDICTED-AVRG) <br>
 The implementation is similar to 'RegressionUserCountPerHashtag'
 ## Videos
-The videos can be found [here](https://drive.google.com/file/d/15_HA5pTEt7a8F8ZQMorAAiK53PrbAV-r/view?usp=sharing) 
+The videos can be found [here](https://drive.google.com/open?id=1ZfmrUc0z21G9I7GFJ82wSKGesYP5omKQ) 
 ## Result of the continuous stream data as Chart
 Displays the development of average word-count of the tweets. Time is in milliseconds. <br>
 Produced by [JavaFxChart.java](https://github.com/ProfGram/MyBigProject/blob/master/src/main/java/com/Project/Charts/JavaFxChart.java)
