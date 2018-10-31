@@ -1,8 +1,8 @@
 # This is the description of my BigData-Project
 ## Setup
-First you have to checkout the project an import it as maven-project to your eclipse.
+First you have to checkout the project and import it as maven-project to your eclipse.
 After that you have to run it with maven as usual.
-To run an Application successfully you have add the following arguments at startup to the file.
+To run an Application successfully you have to add the following arguments at startup to the file.
 
 --twitter-source.consumerKey [KEY] <br>
 --twitter-source.consumerSecret [KEY]<br>
@@ -18,7 +18,8 @@ The videos can be found [here](https://drive.google.com/open?id=1ZfmrUc0z21G9I7G
 ## Klasses
 
 #### BatchGetHashesFromLocation
-Gets hashtags posted in a countries.
+Gets hashtags posted in a country
+. 
 The output looks like ([Country: Hashtags]) <br>
 
 ###### Used metrics:
@@ -46,7 +47,7 @@ tweets
 ```
 
 #### BatchLongestWordPerHashtag
-finds the longes word in a tweet per hashtag.
+finds the longest word in a tweet per hashtag.
 The hashes are filtered.
 The output looks like ([HASHTAG],[WORD], [LENGTH]) <br>
 
@@ -62,7 +63,7 @@ tweets
     .maxBy(2);
 ```
 #### BatchSumHashtags
-The BatchSumHashtags counts the occurrence of each hashtags.
+The BatchSumHashtags counts the occurrence of each hashtag.
 The output looks like ([HASHTAG],[COUNT]) <br>
 
 ###### Used metrics:
@@ -76,7 +77,7 @@ tweets
 ```
 #### BatchWordCountAverage
 program finds tweets to a list of hashtags
-and calculates its average words per tweet.
+and calculates their average words per tweet.
 Tweets are filtered.
 The output looks like ([HASHTAG],[AVERAGR],[AMOUNT_OF_TWEETS]) <br>
 
@@ -91,7 +92,7 @@ tweets
     .reduce(new Reduce());
 ```
 #### StreamGetHashesFromLocation
-Gets hashtags posted in a countries.
+Gets hashtags posted in a country.
 The output looks like ([Country: Hashtags]) <br>
 
 ###### Used metrics:
@@ -130,7 +131,7 @@ tweets
        .maxBy(2);
    ```
 #### StreamSumHashtags
-Counts the occurrence of each hashtags.
+Counts the occurrence of each hashtag.
  The output looks like ([HASHTAG],[COUNT])<br>
 
 ###### Used metrics:
@@ -145,7 +146,7 @@ tweets
 ```
 #### StreamWordCountAverage
  The StreamWordCountAverage program finds tweets to a list of hashtags
- and calculates its average words per tweet.
+ and calculates their average words per tweet.
  The output looks like ([HASTAG],[AVERAGR],[AMOUNT_OF_TWEETS],[TIMESTAMP])<br>
 
 ###### Used metrics:
