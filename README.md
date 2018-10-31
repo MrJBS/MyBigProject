@@ -10,6 +10,9 @@ To run an Application successfully you have add the following arguments at start
 --twitter-source.tokenSecret [KEY]<br>
 --output [location to your recorded file]<br>
 
+## Videos
+The videos can be found [here](https://drive.google.com/open?id=1ZfmrUc0z21G9I7GFJ82wSKGesYP5omKQ) 
+
 ## Klasses
 
 #### BatchGetHashesFromLocation
@@ -227,8 +230,6 @@ RegressionWordCountAverage calculates the simple regression for the average of
 counted words in a hashtag
 The output looks like ([HASHTAG],[Average],[PREDICTED-AVRG) <br>
 The implementation is similar to 'RegressionUserCountPerHashtag'
-## Videos
-The videos can be found [here](https://drive.google.com/open?id=1ZfmrUc0z21G9I7GFJ82wSKGesYP5omKQ) 
 ## Result of the continuous stream data as Chart
 Displays the development of average word-count of the tweets. Time is in milliseconds. <br>
 Produced by [JavaFxChart.java](https://github.com/ProfGram/MyBigProject/blob/master/src/main/java/com/Project/Charts/JavaFxChart.java)
