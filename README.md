@@ -231,7 +231,7 @@ The implementation is similar to 'RegressionUserCountPerHashtag'
 The videos can be found [here](Videos) 
 ## Result of the continuous stream data as Chart
 Displays the development of average word-count of the tweets. Time is in milliseconds. <br>
-Produced by [JavaFxChart.java](https://git.hhu.de/josch233/apache-flink-training/blob/master/src/main/java/com/Project/Charts/JavaFxChart.java)
+Produced by [JavaFxChart.java](https://github.com/ProfGram/MyBigProject/blob/master/src/main/java/com/Project/Charts/JavaFxChart.java)
 ![GitHub Logo](images/chart_0.png)
 
 
